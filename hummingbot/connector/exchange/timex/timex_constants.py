@@ -13,8 +13,10 @@ PING_TIMEOUT = 60.0
 MARKETS_PATH_URL = "public/markets"
 ORDER_BOOK_PATH_URL = "public/orderbook/v2"
 TICKERS_PATH_URL = "public/tickers"
-ORDER_PATH_URL = "/trading/orders"
-TRADES_PATH_URL = "/trading/trades"
+ORDERS_PATH_URL = "trading/orders"
+ORDER_DETAILS_PATH_URL = "history/orders/details"
+TRADES_PATH_URL = "trading/trades"
+BALANCES_PATH_URL = "trading/balances"
 
 PUBLIC_URL_POINTS_LIMIT_ID = "PublicPoints"
 RATE_LIMITS = [
